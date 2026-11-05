@@ -111,7 +111,8 @@ with single_tab:
 
         values[feature] = st.session_state[number_key]
 
-    values["is_red"] = int(st.checkbox("Красное вино"))
+    wine_color = st.radio("Цвет вина", ["Белое", "Красное"], horizontal=True)
+    values["is_red"] = int(wine_color == "Красное")
     submitted = st.button("Оценить вино")
 
     if submitted:
