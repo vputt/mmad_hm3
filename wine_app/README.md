@@ -81,3 +81,4 @@ Streamlit заново выполняет весь `app.py` после кажд�
 
 ## Ссылка на приложение
 
+https://vputt-mmad-hm3-wine-appapp-znpoqf.streamlit.app/
